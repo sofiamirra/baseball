@@ -6,7 +6,7 @@ class View(ft.UserControl):
         super().__init__()
         # page stuff
         self._page = page
-        self._page.title = "TdP Baseball Manager 2024"
+        self._page.title = "TdP Baseball Manager 2026"
         self._page.horizontal_alignment = 'CENTER'
         self._page.theme_mode = ft.ThemeMode.LIGHT
         self._page.bgcolor = "#ebf4f4"
@@ -21,7 +21,7 @@ class View(ft.UserControl):
 
     def load_interface(self):
         # title
-        self._title = ft.Text("TdP Baseball Manager 2024", color="blue", size=24)
+        self._title = ft.Text("TdP Baseball Manager 2026", color="blue", size=24)
         # self._page.controls.append(self._title)
 
         self._ddAnno = ft.Dropdown(label="Anno", width=200, alignment=ft.alignment.top_left)
