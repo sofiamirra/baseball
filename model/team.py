@@ -32,4 +32,5 @@ class Team:
         return hash(self.ID)
 
     def __eq__(self, other):
+        """Metodo per il confronto di due oggetti Team"""
         return self.ID == other.ID
