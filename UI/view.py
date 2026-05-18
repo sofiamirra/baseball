@@ -26,7 +26,7 @@ class View(ft.UserControl):
 
         self._ddAnno = ft.Dropdown(label="Anno", width=200, alignment=ft.alignment.top_left,
                                    on_change = self._controller.handleYearSelection)
-        self._controller._fillDDYears() # riempio il menù a tendinda
+        self._controller._fillDDYears() # riempio il menù a tendina
 
         row1 = ft.Row([ft.Container(self._title, width=500),
                        ft.Container(None, width=0),
